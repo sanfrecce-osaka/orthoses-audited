@@ -20,7 +20,7 @@ RSpec.describe Orthoses::Audited do
       store = subject
 
       expect(store['ActiveRecord::Base'].to_rbs).to eq <<~RBS
-        class ActiveRecord::Base
+        class ::ActiveRecord::Base
           extend Audited::Auditor::ClassMethods
         end
       RBS
@@ -72,7 +72,7 @@ RSpec.describe Orthoses::Audited do
       store = subject
 
       expect(store['ActiveRecord::Base'].to_rbs).to eq <<~RBS
-        class ActiveRecord::Base
+        class ::ActiveRecord::Base
           extend Audited::Auditor::ClassMethods
         end
       RBS
