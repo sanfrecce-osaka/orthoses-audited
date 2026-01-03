@@ -150,6 +150,7 @@ DEPENDENCIES
   orthoses-audited!
   railties
   rake
+  rbs
   rspec
 
 CHECKSUMS
