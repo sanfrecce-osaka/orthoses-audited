@@ -1,5 +1,9 @@
 # frozen_string_literal: true
 
+require 'active_record'
+require 'rails/railtie'
+require 'rails/version'
+require 'audited'
 require 'orthoses/audited'
 
 RSpec.configure do |config|
