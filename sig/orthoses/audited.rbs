@@ -1,6 +1,16 @@
 module Orthoses
-  module Audited
+  class Audited
+    interface _Loader
+      def call: () -> Store
+    end
+
     VERSION: String
-    # See the writing guide of rbs: https://github.com/ruby/rbs#guides
+
+    @loader: _Loader
+    @audit_class: String
+
+    def initialize: (_Loader loader, ?audit_class: String) -> void
+
+    def call: () -> Store
   end
 end
