@@ -41,6 +41,14 @@ gems:
     revision: f2826d40140e8d87f43a44375bb277ba7b7b2e19
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
+- name: ast
+  version: '2.4'
+  source:
+    type: git
+    name: ruby/gem_rbs_collection
+    revision: f2826d40140e8d87f43a44375bb277ba7b7b2e19
+    remote: https://github.com/ruby/gem_rbs_collection.git
+    repo_dir: gems
 - name: audited
   version: '5.8'
   source:
@@ -85,6 +93,14 @@ gems:
     revision: f2826d40140e8d87f43a44375bb277ba7b7b2e19
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
+- name: csv
+  version: '3.3'
+  source:
+    type: git
+    name: ruby/gem_rbs_collection
+    revision: f2826d40140e8d87f43a44375bb277ba7b7b2e19
+    remote: https://github.com/ruby/gem_rbs_collection.git
+    repo_dir: gems
 - name: date
   version: '0'
   source:
@@ -109,7 +125,15 @@ gems:
   version: '0'
   source:
     type: stdlib
+- name: ffi
+  version: 1.17.3
+  source:
+    type: rubygems
 - name: fileutils
+  version: '0'
+  source:
+    type: stdlib
+- name: forwardable
   version: '0'
   source:
     type: stdlib
@@ -129,6 +153,14 @@ gems:
   version: '0'
   source:
     type: stdlib
+- name: listen
+  version: '3.9'
+  source:
+    type: git
+    name: ruby/gem_rbs_collection
+    revision: f2826d40140e8d87f43a44375bb277ba7b7b2e19
+    remote: https://github.com/ruby/gem_rbs_collection.git
+    repo_dir: gems
 - name: logger
   version: '0'
   source:
@@ -145,6 +177,10 @@ gems:
   version: '0'
   source:
     type: stdlib
+- name: mutex_m
+  version: 0.3.0
+  source:
+    type: rubygems
 - name: nokogiri
   version: '1.11'
   source:
@@ -165,6 +201,14 @@ gems:
   version: 1.20.2
   source:
     type: rubygems
+- name: parser
+  version: '3.2'
+  source:
+    type: git
+    name: ruby/gem_rbs_collection
+    revision: f2826d40140e8d87f43a44375bb277ba7b7b2e19
+    remote: https://github.com/ruby/gem_rbs_collection.git
+    repo_dir: gems
 - name: pp
   version: '0'
   source:
@@ -209,6 +253,14 @@ gems:
     revision: f2826d40140e8d87f43a44375bb277ba7b7b2e19
     remote: https://github.com/ruby/gem_rbs_collection.git
     repo_dir: gems
+- name: rainbow
+  version: '3.0'
+  source:
+    type: git
+    name: ruby/gem_rbs_collection
+    revision: f2826d40140e8d87f43a44375bb277ba7b7b2e19
+    remote: https://github.com/ruby/gem_rbs_collection.git
+    repo_dir: gems
 - name: rake
   version: '13.0'
   source:
@@ -238,6 +290,10 @@ gems:
   source:
     type: stdlib
 - name: stringio
+  version: '0'
+  source:
+    type: stdlib
+- name: strscan
   version: '0'
   source:
     type: stdlib
