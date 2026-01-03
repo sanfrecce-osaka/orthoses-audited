@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-require_relative "audited/version"
+require_relative 'audited/version'
 
 module Orthoses
   module Audited
